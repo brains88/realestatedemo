@@ -1885,9 +1885,18 @@
         new Mmenu(document.querySelector("#menu"));
     </script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/controls/OrbitControls.js"></script>
-    <script src="./js/virtualTour.js"></script>
+<script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.140.0/build/three.module.js",
+        "three/examples/jsm/loaders/GLTFLoader.js": "https://cdn.jsdelivr.net/npm/three@0.128.0/examples/jsm/loaders/GLTFLoader.js",
+        "three/examples/jsm/controls/OrbitControls.js": "https://cdn.jsdelivr.net/npm/three@0.140.0/examples/jsm/controls/OrbitControls.js",
+        "stats.js": "https://cdnjs.cloudflare.com/ajax/libs/stats.js/r17/Stats.min.js",
+        "gsap": "https://cdn.jsdelivr.net/npm/gsap@3.11.3/index.js"
+      }
+    }
+    </script>
+    <script type="module" src="./js/virtualTour.js"></script>
 
 </body>
 
