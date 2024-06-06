@@ -10873,8 +10873,6 @@ body::-webkit-scrollbar {
 .property-single-wrap .content-wrap .tour {
   margin-bottom: 81px;
 }
-<<<<<<< HEAD
-=======
 
 .property-single-wrap .content-wrap .tour .image{
   position: relative;
@@ -10888,16 +10886,12 @@ body::-webkit-scrollbar {
   height: 100%;
   z-index: 10;
 }
->>>>>>> origin/yaro
 .property-single-wrap .content-wrap .tour h4 {
   margin-bottom: 32px;
 }
 .property-single-wrap .content-wrap .tour .image img {
   border-radius: 16px;
-<<<<<<< HEAD
-=======
   opacity: 0;  
->>>>>>> origin/yaro
 }
 .property-single-wrap .content-wrap .page-views {
   margin-bottom: 98px;
@@ -15115,11 +15109,8 @@ a {
 }
 
 /*# sourceMappingURL=style.css.map */
-<<<<<<< HEAD
-=======
 
 body > div[style*="z-index: 10000"]{
   /* Your styles here */
   display: none;
 }
->>>>>>> origin/yaro
